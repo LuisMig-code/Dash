@@ -6,7 +6,7 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-import dash_bootstrap_components as dbgit inic
+import dash_bootstrap_components as dbc
 
 # lendo os arquivos
 df = pd.read_csv("sales_data_sample.csv" , encoding = "latin-1")
